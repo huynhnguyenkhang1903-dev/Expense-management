@@ -1,0 +1,80 @@
+# ==========================================
+# Startup & Launch scripts (Không đẩy file khởi động)
+# ==========================================
+/*.bat
+!mobile/android/gradlew.bat
+/*.cmd
+/*.ps1
+1_Chay_Backend.bat
+2_Chay_Mobile_Web.bat
+3_Chay_Mobile_Android.bat
+
+# ==========================================
+# IDE & Editors
+# ==========================================
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+.vs/
+
+# ==========================================
+# .NET / C# Build & Cache
+# ==========================================
+bin/
+obj/
+**/[Bb]in/
+**/[Oo]bj/
+*.user
+*.userosv
+*.suo
+*.userprefs
+*.sln.docstates
+packages/
+*.nupkg
+
+# ==========================================
+# Flutter / Dart Build & Cache
+# ==========================================
+.dart_tool/
+**/.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+**/build/
+**/[Bb]uild/
+
+# Ephemeral & Generated platform files
+**/ephemeral/
+**/flutter/ephemeral/
+**/Flutter/ephemeral/
+**/ios/Flutter/.last_build_id
+**/ios/Pods/
+**/ios/.symlinks/
+**/android/local.properties
+**/android/.gradle/
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+
+# ==========================================
+# Database & Logs & Temp
+# ==========================================
+*.db
+*.sqlite
+*.sqlite3
+*.mdf
+*.ldf
+*.log
+*.tmp
+
+# ==========================================
+# OS Generated Files
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
